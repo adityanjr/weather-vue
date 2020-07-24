@@ -1,0 +1,12 @@
+{
+  "comments": false,
+  "plugins": ["@babel/plugin-transform-runtime"],
+  "env": {
+    "main": {
+      "presets": [["@babel/preset-env", { "modules": false }]]
+    },
+    "bg": {
+      "presets": [["@babel/preset-env", { "modules": false }]]
+    }
+  }
+}
